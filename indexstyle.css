@@ -47,3 +47,71 @@ font-family: 'Open Sans', sans-serif;
     color: white;
     margin-bottom: 100px;
 }
+.feature-container{
+    width: 50%;
+   margin: auto;
+   padding: 100px 0px 40px 0px;
+}
+.feature-title{
+    text-align: center;
+    color:  #272727;
+}
+.feature-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* flower section styles */
+
+.flowers-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 130px;
+}
+.flower-image1{
+    width: 230px;
+    margin: 0px 0px -4px;
+}
+.flower-image2{
+    width: 230px;  
+}
+.flower-image3{
+    width: 230px;
+}
+.flower-box1{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 45px 0px 45px;
+   border-radius: 300px 300px 0px 0px;  
+}
+.flower-box2{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 110px 45px 0px 45px;
+    border-radius: 300px 300px 0px 0px;   
+}
+.flower-box3{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 75px 45px 0px 45px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+}
+.flower-name1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #272727;
+   
+    
+}
+.flower-name2{
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 40px;
+    color: #272727;
+}
+.flower-name3{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -180px;  
+    color: #272727;
+}

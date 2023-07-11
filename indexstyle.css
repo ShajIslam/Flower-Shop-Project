@@ -96,26 +96,36 @@ font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: flex-end;
 }
-/* .flower-name1{
-    position: static;
-    margin-top: 50px;
-    margin-left: 40px;
-    color: #272727;
-   
-    
+.flowers-container {
+    display: flex;
+    gap: 30px;
+    margin-left: 130px;
 }
-.flower-name2{
-    position: absolute;
-    margin-top: 135px;
-    margin-left: 40px;
-    color: #272727;
+
+.flower-titles {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    width: 80%;
+    padding-top: 20px;
 }
-.flower-name3{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: -180px;  
-    color: #272727;
-} */
+
+.flower-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.flower-title h3 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+
+
 /* sale container styles*/
 .sale-container{
     display: flex;

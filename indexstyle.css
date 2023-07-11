@@ -236,3 +236,37 @@ small{
     color: rgba(255, 255, 255, 0.40);
     font-size: 10px;
 }
+/* Bonus section styles */
+.birthday-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+
+}
+.bd-image{
+    width: 300px;
+}
+.bd-title{
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    color: #272727
+}
+.bd-wish{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color:rgba(39, 39, 39, 0.60)
+}
+.shopnow-button{
+    background-color: #E55473;
+    padding: 10px 33px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 430px;
+}
